@@ -344,7 +344,15 @@ header a:hover {
     width: 40vw;
 }
 
-.Mascotbox img {
+#TextBalloon {
+    position: absolute;
+    z-index: -1;
+    width: 47vw;
+    left: 10vw;
+    top: 15vh;
+}
+
+#Mascot {
     max-width: 400px;
     width: 30vw;
     min-width: 300px;
@@ -395,9 +403,7 @@ header a:hover {
     align-items: center;
     background-color: #029189;
     border-top: 5px solid #03746e;
-    border-bottom: 5px solid #03746e;
     width: 100vw;
-    margin-bottom: 25px;
     padding: 30px 0px 30px 0px;
 }
 

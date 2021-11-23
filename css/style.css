@@ -1,0 +1,414 @@
+@font-face {
+    font-family: JingleBells;
+    src: url('../Fonts/jingle-bells.regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: LapsusPro;
+    src: url('../Fonts/lapsus-pro.bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ----------------------------------------------------Genereal */
+
+* {
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 0px;
+}
+
+.template {
+    display: none;
+}
+
+
+/* --------------------------------------------Header/nav */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: JingleBells;
+    box-sizing: border-box;
+    background-color: #02c1b8;
+    border-bottom: 5px solid #03746e;
+    width: 100vw;
+    height: 15vh;
+    margin: 0 0 60px 0;
+    padding: 0px 0 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scanimal {
+    background-image: url("../images/Scanimal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#edugames {
+    background-image: url("../images/Edugameswhite.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Logo {
+    width: 340px;
+    height: 55px;
+}
+
+.Logo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+header a.Nav {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding: 0 35px 0 35px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+/* --------------------------------------------Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03746e;
+    width: 100vw;
+    height: 10vh;
+}
+
+.footer p {
+    font-family: JingleBells;
+    font-size: 25px;
+    color: white;
+    padding: 15px 0 15px 0;
+}
+
+
+/* --------------------------------------------Arrow */
+
+.Arrowup {
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Arrowup:hover {
+    background-color: #555;
+}
+
+
+/* ----------------------------------------------------Home */
+
+.steptitle div {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.steptitle h1 {
+    display: flex;
+    justify-content: center;
+    font-family: LapsusPro;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.Steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.Steps ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+    width: 80vw;
+}
+
+.Steps img {
+    border: black solid 2px;
+    border-style: dashed;
+    height: 230px;
+}
+
+.Packages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #029189;
+    border-top: 5px solid #03746e;
+    width: 100vw;
+    padding-top: 30px;
+}
+
+.Packages h1 {
+    font-family: LapsusPro;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
+
+.Packages p {
+    font-family: JingleBells;
+    font-size: 30px;
+    color: white;
+}
+
+.Packages ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-bottom: 25px;
+}
+
+.Packages li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Packages img {
+    width: 322px;
+    height: 267px;
+}
+
+.Packages img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* ----------------------------------------------------About */
+
+.TeamFoto {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.TeamFoto h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: LapsusPro;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.TeamFoto p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: JingleBells;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.Teambox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.Teammembers {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin-top: 20vh;
+}
+
+.member {
+    width: 15vw;
+    margin: 10px;
+}
+
+.member:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#TeamFoto {
+    width: 100vw;
+}
+
+
+/* ----------------------------------------------------Cause */
+
+.Cause {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.Cause h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: LapsusPro;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.Causebox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.Textbox {
+    width: 32vw;
+}
+
+.Textbox p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: JingleBells;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.Mascotbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 40vw;
+}
+
+.Mascotbox img {
+    max-width: 400px;
+    width: 30vw;
+    min-width: 300px;
+}
+
+
+/* ----------------------------------------------------Packages */
+
+.Packagespage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 30px;
+}
+
+.Packagespage h1 {
+    font-family: LapsusPro;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+}
+
+.Packagespage p {
+    font-family: JingleBells;
+    font-size: 30px;
+    color: black;
+}
+
+.Proceduretext {
+    padding-left: 15vw;
+    padding-bottom: 10px;
+}
+
+.Proceduretext li {
+    display: list-item;
+    list-style-type: circle;
+    font-family: JingleBells;
+    font-size: 25px;
+    color: black;
+}
+
+.Packageschoose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #029189;
+    border-top: 5px solid #03746e;
+    border-bottom: 5px solid #03746e;
+    width: 100vw;
+    margin-bottom: 25px;
+    padding: 30px 0px 30px 0px;
+}
+
+.Packageschoose li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Packageschoose img {
+    width: 322px;
+    height: 267px;
+}
+
+.Packageschoose img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

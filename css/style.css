@@ -132,7 +132,7 @@ header a:hover {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
     border-radius: 10px;
 }
 
@@ -167,7 +167,10 @@ header a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 5vh;
-    margin-bottom: 10vh;
+    padding-bottom: 10vh;
+    background-image: url("../images/Background/01_Leaf_02-01.png");
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .Steps ul {
@@ -246,6 +249,13 @@ header a:hover {
     width: 100vw;
 }
 
+.TeamFoto div:first-child {
+    background-image: url("../images/Background/01_Cactus-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 30px;
+}
+
 .TeamFoto h1 {
     display: flex;
     justify-content: center;
@@ -268,7 +278,6 @@ header a:hover {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 30px;
 }
 
 .Teammembers {
@@ -322,10 +331,20 @@ header a:hover {
     align-content: center;
     flex-direction: row;
     padding-top: 30px;
+    background-image: url("../images/Background/01_Leaf_01-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .Textbox {
+    background-color: white;
+    border: black solid;
+    border-style: dashed;
     width: 32vw;
+    height: 30vh;
+    padding: 0px 20px;
+    padding-top: 5vh;
+    border-radius: 10%;
 }
 
 .Textbox p {
@@ -368,6 +387,9 @@ header a:hover {
     flex-direction: column;
     width: 100vw;
     padding-top: 30px;
+    background-image: url("../images/Background/01_Monsterat-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .Packagespage h1 {

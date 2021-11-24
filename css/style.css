@@ -337,17 +337,15 @@ header a:hover {
 }
 
 .Textbox {
-    background-color: white;
-    border: black solid;
-    border-style: dashed;
     width: 32vw;
-    height: 30vh;
-    padding: 0px 20px;
-    padding-top: 5vh;
-    border-radius: 10%;
 }
 
 .Textbox p {
+    background-color: white;
+    border: black solid;
+    border-style: dashed;
+    border-radius: 10%;
+    padding: 5vh 20px;
     display: flex;
     justify-content: center;
     align-content: center;

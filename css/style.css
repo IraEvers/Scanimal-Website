@@ -117,6 +117,24 @@ header a:hover {
     padding: 15px 0 15px 0;
 }
 
+.SocialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10vw;
+    max-height: 5vh;
+}
+
+.SocialMedia p {
+    padding-right: 1vw;
+}
+
+.SocialMedia img {
+    width: 2.5vw;
+    margin: 0.5vw;
+}
+
 
 /* --------------------------------------------Arrow */
 
@@ -249,7 +267,7 @@ header a:hover {
     width: 100vw;
 }
 
-.TeamFoto div:first-child {
+.TeamFoto .DIV {
     background-image: url("../images/Background/01_Cactus-01.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -370,7 +388,7 @@ header a:hover {
 }
 
 #Mascot {
-    max-width: 400px;
+    max-width: 450px;
     width: 30vw;
     min-width: 300px;
 }
@@ -442,4 +460,176 @@ header a:hover {
 .Packageschoose img:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+
+/*---------------------------------------------------Package Buy*/
+
+.PackagespageBuy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 30px;
+    background-image: url("../images/Background/01_Monsterat-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.PackagespageBuy h1 {
+    font-family: LapsusPro;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
+
+.PackagespageBuy p {
+    font-family: JingleBells;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 0px 0px 10px 0px;
+    padding-right: 10px;
+}
+
+.PackagespageBuy form {
+    margin-bottom: 30px;
+}
+
+.Column {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Column input {
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 15px;
+    border-radius: 25%;
+    border: 5px solid #03746e;
+}
+
+.Column section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Column.information section {
+    align-items: flex-start;
+}
+
+.Column li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: list-item;
+    list-style-type: circle;
+    font-family: JingleBells;
+    font-size: 25px;
+    color: white;
+}
+
+.Column ul {
+    background-color: #03746e;
+    border-radius: 5%;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 3vw 15px 3vw;
+    margin-right: 5vw;
+}
+
+.Column button {
+    font-family: JingleBells;
+    font-size: 30px;
+    color: white;
+    border-radius: 25%;
+    background-color: #ff5800;
+    padding: 5px 15px;
+    margin: 0px 10px 20px 10px
+}
+
+.Column button:hover {
+    background-color: rgb(250, 155, 0);
+}
+
+
+/* ----------------------------------------------------Merch */
+
+.backgroundMerch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    background-image: url("../images/Background/01_Leaf_01-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.backgroundMerch h1 {
+    font-family: LapsusPro;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.Merch {
+    max-width: 100vw;
+}
+
+.MerchBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    max-width: 100vw;
+}
+
+
+/*---------------------------------------------------MERCH > VIDEOS*/
+
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.video {
+    width: 400px;
+    height: 450px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/*--------------------------------------------------MERCH > PICTURES*/
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.pictures img {
+    width: 350px;
+    height: 320px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pictures img:hover {
+    opacity: 0.6;
+    transition: 2s;
 }

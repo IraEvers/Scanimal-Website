@@ -171,13 +171,21 @@ header a:hover {
     width: 100vw;
 }
 
+.steptitle h1:first-child {
+    display: flex;
+    justify-content: center;
+    font-family: LapsusPro;
+    color: black;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
 .steptitle h1 {
     display: flex;
     justify-content: center;
     font-family: LapsusPro;
     color: black;
-    font-size: 60px;
-    margin-bottom: 20px;
+    font-size: 45px;
 }
 
 .Steps {
@@ -201,8 +209,7 @@ header a:hover {
 }
 
 .Steps img {
-    border: black solid 2px;
-    border-style: dashed;
+    border: #029189 solid 2px;
     height: 230px;
 }
 
@@ -620,16 +627,19 @@ header a:hover {
     justify-content: center;
     flex-wrap: wrap;
     width: 80%;
+    transition: 0.2s;
 }
 
 .pictures img {
     width: 350px;
-    height: 320px;
+    height: 350px;
     margin: 10px;
     padding: 10px;
 }
 
 .pictures img:hover {
-    opacity: 0.6;
+    opacity: 0.7;
+    width: 400px;
+    height: 400px;
     transition: 2s;
 }

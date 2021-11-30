@@ -603,23 +603,6 @@ header a:hover {
 }
 
 
-/*---------------------------------------------------MERCH > VIDEOS*/
-
-.videos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-}
-
-.video {
-    width: 400px;
-    height: 450px;
-    margin: 10px;
-    padding: 10px;
-}
-
-
 /*--------------------------------------------------MERCH > PICTURES*/
 
 .pictures {
@@ -632,14 +615,26 @@ header a:hover {
 
 .pictures img {
     width: 350px;
-    height: 350px;
+    height: 390px;
     margin: 10px;
     padding: 10px;
 }
 
+.pictures img.wide {
+    width: 400px;
+    height: 330px;
+}
+
 .pictures img:hover {
     opacity: 0.7;
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 430px;
+    transition: 2s;
+}
+
+.pictures img.wide:hover {
+    opacity: 0.7;
+    width: 430px;
+    height: 350px;
     transition: 2s;
 }

@@ -24,8 +24,8 @@
 body {
     overflow-x: hidden;
     background-color: white;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: auto;
+    padding: auto;
     font-size: 0px;
 }
 
@@ -495,7 +495,7 @@ header a:hover {
     font-family: JingleBells;
     font-size: 35px;
     color: black;
-    margin-bottom: 0px 0px 10px 0px;
+    margin-bottom: 0 0 10px 0;
     padding-right: 10px;
 }
 

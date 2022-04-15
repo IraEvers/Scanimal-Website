@@ -470,6 +470,24 @@ header a:hover {
 }
 
 
+/*---------------------------------------------------Showcase*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AppShowcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 110vh;
+}
+
+
 /*---------------------------------------------------Package Buy*/
 
 .PackagespageBuy {
